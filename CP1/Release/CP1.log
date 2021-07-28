@@ -1,0 +1,32 @@
+﻿生成启动时间为 2021-07-27 14:54:13。
+     1>项目“D:\visual C++2010\CP1\CP1\CP1.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\CP1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(27): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 参见“getch”的声明
+     1>main.cpp(98): warning C4018: “>”: 有符号/无符号不匹配
+     1>main.cpp(114): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 main.cpp(110) : 忽略“i”的定义
+                 main.cpp(109) : 使用“i”的定义
+     1>main.cpp(217): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual C++2010\CP1\Release\CP1.exe" /NOLOGO hacker.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\CP1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\visual C++2010\CP1\Release\CP1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual C++2010\CP1\Release\CP1.lib" /MACHINE:X86 Release\main.obj
+         Release\testcin.obj
+         Release\testdouble.obj
+         正在生成代码
+         已完成代码的生成
+         CP1.vcxproj -> D:\visual C++2010\CP1\Release\CP1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\visual C++2010\CP1\Release\CP1.exe;#1" /manifest Release\CP1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\CP1.unsuccessfulbuild”。
+         正在对“Release\CP1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\visual C++2010\CP1\CP1\CP1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.85
